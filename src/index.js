@@ -2,59 +2,28 @@ import React from "react"
 import ReactDOM  from "react-dom"
 import './reset.css';
 import './index.css';
-
-class Square extends React.Component {
+class Principal extends React.Component {
     render() {
       return (
-        <button className="square">
-          {/* TODO */}
-        </button>
-      );
-    }
-  }
-  
-  class Board extends React.Component {
-    renderSquare(i) {
-      return <Square />;
-    }
-  
-    render() {
-      const status = 'Next player: X';
-  
-      return (
-        <div>
-          <div className="status">{status}</div>
-          <div className="board-row">
-            {this.renderSquare(0)}
-            {this.renderSquare(1)}
-            {this.renderSquare(2)}
-          </div>
-          <div className="board-row">
-            {this.renderSquare(3)}
-            {this.renderSquare(4)}
-            {this.renderSquare(5)}
-          </div>
-          <div className="board-row">
-            {this.renderSquare(6)}
-            {this.renderSquare(7)}
-            {this.renderSquare(8)}
-          </div>
-        </div>
-      );
-    }
-  }
-  
-  class Game extends React.Component {
-    render() {
-      return (
-        <div className="game">
-          <div className="game-board">
-            <Board />
-          </div>
-          <div className="game-info">
-            <div>{/* status */}</div>
-            <ol>{/* TODO */}</ol>
-          </div>
+        <div className="content">
+          <header>
+            <div> Ganhe R$ 10,00 de desconto no frete</div>
+            <h2> Jordan Shoes</h2>
+            <div>
+              <h2> A melhor loja de Jordan</h2>
+              <p> O tênis Jordan é fruto de uma velha e forte parceria entre a Nike e o jogador Michael Jordan.</p>
+            </div>
+          </header>
+          <section>
+            <h2>Destaques</h2>
+            <span>Frete grátis e chinelo de brinde é aqui, aproveite por tempo limitado. </span>
+            <div>
+              {/* TODO List of Shoes */}
+            </div>
+          </section>
+          <footer>
+            <span>Todos os direitos reservados.</span>
+          </footer>
         </div>
       );
     }
@@ -63,7 +32,7 @@ class Square extends React.Component {
   // ========================================
   
   ReactDOM.render(
-    <Game />,
+    <Principal />,
     document.getElementById('root')
   );
   
