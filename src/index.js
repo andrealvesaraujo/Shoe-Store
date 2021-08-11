@@ -1,16 +1,19 @@
 import React from "react"
 import ReactDOM  from "react-dom"
+import './fonts/Montserrat-Medium.ttf';
+import './fonts/Montserrat-Bold.ttf';
+import './fonts/Montserrat-SemiBold.ttf';
 import './reset.css';
 import './index.css';
 class Principal extends React.Component {
     render() {
       return (
-        <div className="content">
+        <main className="content">
           <header>
-            <div> Ganhe R$ 10,00 de desconto no frete</div>
-            <h2> Jordan Shoes</h2>
+            <div className="black-block"> Ganhe R$ 10,00 de desconto no frete</div>
+            <h2 className="white-block"> Jordan Shoes</h2>
             <div>
-              <h2> A melhor loja de Jordan</h2>
+              <h2 > A melhor loja de Jordan</h2>
               <p> O tênis Jordan é fruto de uma velha e forte parceria entre a Nike e o jogador Michael Jordan.</p>
             </div>
           </header>
@@ -21,10 +24,10 @@ class Principal extends React.Component {
               {/* TODO List of Shoes */}
             </div>
           </section>
-          <footer>
+          <footer className="black-block">
             <span>Todos os direitos reservados.</span>
           </footer>
-        </div>
+        </main>
       );
     }
   }
