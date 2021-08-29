@@ -37,3 +37,36 @@
     line-height: 4.7rem;
     padding: .7rem 0 ;
 }
+
+.content .content-wallpaper {
+    background-image: url('./img/wallpaper.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 12.9rem 0 12.1rem 10rem;
+    
+}
+
+.content .content-wallpaper .filter {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.content .content-wallpaper h2 {
+    font-size: 3.2rem;
+    line-height: 3.9rem;
+    font-weight: bold;
+    font-family: "Montserrat";
+    color: var(--bgSite);
+    margin: 0 0 1.9rem 0;
+}
+
+
+.content .content-wallpaper p{
+    font-size: 1.8rem;
+    line-height: 3.5rem;
+    font-family: "Montserrat";
+    color: var(--bgSite);
+    margin: 0 0 0 0;
+
+}

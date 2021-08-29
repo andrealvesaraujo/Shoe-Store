@@ -3,6 +3,7 @@ import ReactDOM  from "react-dom"
 import './fonts/Montserrat-Medium.ttf';
 import './fonts/Montserrat-Bold.ttf';
 import './fonts/Montserrat-SemiBold.ttf';
+import './img/wallpaper.jpeg';
 import './reset.css';
 import './index.css';
 class Principal extends React.Component {
@@ -12,10 +13,13 @@ class Principal extends React.Component {
           <header>
             <div className="black-block"> Ganhe R$ 10,00 de desconto no frete</div>
             <h2 className="white-block"> Jordan Shoes</h2>
-            <div>
-              <h2 > A melhor loja de Jordan</h2>
-              <p> O tênis Jordan é fruto de uma velha e forte parceria entre a Nike e o jogador Michael Jordan.</p>
+            <div className="content-wallpaper">
+              <div className="filter">
+                <h2 > A melhor loja de Jordan</h2>
+                <p> O tênis Jordan é fruto de uma velha e forte <br/> parceria entre a Nike e o jogador Michael Jordan.</p>      
+              </div>
             </div>
+
           </header>
           <section>
             <h2>Destaques</h2>
