@@ -3,7 +3,7 @@ import ReactDOM  from "react-dom"
 import './fonts/Montserrat-Medium.ttf';
 import './fonts/Montserrat-Bold.ttf';
 import './fonts/Montserrat-SemiBold.ttf';
-import './img/wallpaper.jpeg';
+import './wallpaper.jpeg';
 import './reset.css';
 import './index.css';
 class Principal extends React.Component {
@@ -25,7 +25,16 @@ class Principal extends React.Component {
             <h2>Destaques</h2>
             <span>Frete grátis e chinelo de brinde é aqui, aproveite por tempo limitado. </span>
             <div>
-              {/* TODO List of Shoes */}
+              <ul className="container">
+                <li><img src='img/shoe-1.png' alt="Sapato 1" /></li>
+                <li><img src='img/shoe-2.png' alt="Sapato 2" /></li>
+                <li><img src='img/shoe-3.png' alt="Sapato 3" /></li>
+                <li><img src='img/shoe-4.png' alt="Sapato 4" /></li>
+                <li><img src='img/shoe-5.png' alt="Sapato 5" /></li>
+                <li><img src='img/shoe-6.png' alt="Sapato 6" /></li>
+                <li><img src='img/shoe-7.png' alt="Sapato 7" /></li>
+                <li><img src='img/shoe-8.png' alt="Sapato 8" /></li>
+              </ul>
             </div>
           </section>
           <footer className="black-block">
