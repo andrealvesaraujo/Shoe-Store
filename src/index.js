@@ -3,7 +3,8 @@ import ReactDOM  from "react-dom"
 import './fonts/Montserrat-Medium.ttf';
 import './fonts/Montserrat-Bold.ttf';
 import './fonts/Montserrat-SemiBold.ttf';
-import './wallpaper.jpeg';
+import './background-desktop.jpeg';
+import './background-mobile.jpg';
 import './reset.css';
 import './index.css';
 class Principal extends React.Component {
