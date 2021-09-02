@@ -15,7 +15,7 @@ class Principal extends React.Component {
             <div className="black-block"> Ganhe R$ 10,00 de desconto no frete</div>
             <h2 className="white-block"> Jordan Shoes</h2>
             <div className="content-wallpaper">
-              <div className="filter">
+              <div className="area">
                 <h2 > A melhor loja de Jordan</h2>
                 <p> O tênis Jordan é fruto de uma velha e forte <br/> parceria entre a Nike e o jogador Michael Jordan.</p>      
               </div>

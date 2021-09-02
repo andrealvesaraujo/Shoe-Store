@@ -50,9 +50,10 @@
     
 }
 
-.content .content-wallpaper .filter {
+.content .content-wallpaper .area {
     background-color: rgba(0, 0, 0, 0.5);
-    padding: 14rem 0 10rem 0;
+    padding: 14rem 0 10rem 3rem;    
+    width: 100%;
 }
 
 
@@ -131,10 +132,8 @@
         
     }
     
-    .content .content-wallpaper .filter {
-        background-color: rgba(0, 0, 0, 0.5);
+    .content .content-wallpaper .area {
         padding: 12.9rem 0 12.1rem 12rem;
-        width: 100%;
     }
 
     
