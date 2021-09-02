@@ -44,9 +44,9 @@
 .content .content-wallpaper {
     background-image: url('./background-mobile.jpg');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     background-position: center;
-    padding: 10rem 0 10rem 0;
+    padding: 14rem 0 10rem 0
     
 }
 
@@ -76,21 +76,21 @@
 
 .content section {
     text-align: center;
-    padding: 5rem 10rem 5rem 10rem;
+    padding: 3rem 2rem 3rem 2rem;
 }
 
 .content section h2 {
-    font-size: 3.2rem;
+    font-size: 2.8rem;
     font-weight: 600;
-    line-height: 6.3rem;
+    line-height: 5.5rem;
     font-family: "Montserrat-Semi";
     color: var(--title);
 }
 
 .content section span {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight: 500;
-    line-height: 3.5rem;
+    line-height: 2.9rem;
     color: var(--text);
 }
 
@@ -103,7 +103,7 @@
 }
 
 .content section .container li {
-    padding: 7.6rem 2.5rem;
+    padding: 7.6rem 6.2rem;
     background-color: var(--bgCard);        
     margin: 1.9rem 0;
 }
@@ -172,10 +172,5 @@
     .content section .container li {
         padding: 7.6rem 2.5rem;
         margin: 1.9rem 0;
-    }
-
-    .content section .container li img {
-        width: 25rem;
-        height: 15rem;    
     }
 }
