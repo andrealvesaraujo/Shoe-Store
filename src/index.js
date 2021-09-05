@@ -1,5 +1,6 @@
 import React from "react"
 import ReactDOM  from "react-dom"
+import Typed from "typed.js";
 import './fonts/Montserrat-Medium.ttf';
 import './fonts/Montserrat-Bold.ttf';
 import './fonts/Montserrat-SemiBold.ttf';
@@ -8,6 +9,16 @@ import './background-mobile.jpg';
 import './reset.css';
 import './index.css';
 class Principal extends React.Component {
+
+    componentDidMount() {
+      this.typed = new Typed("#descricao-background",  {
+        strings: [
+          'O tênis Jordan é fruto de uma velha e forte <br/> parceria entre a Nike e o jogador Michael Jordan.',
+        ],
+        typeSpeed: 50,
+      });
+    }
+
     render() {
       return (
         <main className="content">
@@ -17,7 +28,7 @@ class Principal extends React.Component {
             <div className="content-wallpaper">
               <div className="area">
                 <h2 > A melhor loja de Jordan</h2>
-                <p> O tênis Jordan é fruto de uma velha e forte <br/> parceria entre a Nike e o jogador Michael Jordan.</p>      
+                <p id="descricao-background"></p>      
               </div>
             </div>
 
@@ -49,7 +60,7 @@ class Principal extends React.Component {
   // ========================================
   
   ReactDOM.render(
-    <Principal />,
+    <Principal/>,
     document.getElementById('root')
   );
   
