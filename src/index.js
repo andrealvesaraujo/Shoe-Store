@@ -1,6 +1,7 @@
 import React from "react"
 import ReactDOM  from "react-dom"
 import Typed from "typed.js";
+import ScrollReveal from 'scrollreveal'
 import './fonts/Montserrat-Medium.ttf';
 import './fonts/Montserrat-Bold.ttf';
 import './fonts/Montserrat-SemiBold.ttf';
@@ -17,6 +18,16 @@ class Principal extends React.Component {
         ],
         typeSpeed: 50,
       });
+
+      this.sr = ScrollReveal({
+            origin: 'top',
+            distance: '50px',
+            duration: 2000,
+            reset: true
+      });
+
+      ScrollReveal().reveal('.content', { delay: 350});
+
     }
 
     render() {

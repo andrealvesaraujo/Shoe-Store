@@ -114,6 +114,12 @@
   height: 15rem;   
   display: flex;
   justify-content: center; 
+
+}
+
+.content section .container li:hover img {
+    transform: scale(1.3); 
+    transition: 1s all ease;
 }
 
 @media (min-width:  599.98px) {
