@@ -116,7 +116,7 @@ To get a local copy up and running follow these simple example steps.
 ## Roadmap
 
 - [x] Add Animations in Text and Scroll
-- [ ] Update examples in english
+- [x] Update examples in english
 - [ ] Add click on card to open a modal with shoe info
 
 See the [open issues](https://github.com/andrealvesaraujo/Shoe-Store/issues) for a full list of proposed features (and known issues).

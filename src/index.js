@@ -14,7 +14,7 @@ class Principal extends React.Component {
     componentDidMount() {
       this.typed = new Typed("#descricao-background",  {
         strings: [
-          'O tênis Jordan é fruto de uma velha e forte <br/> parceria entre a Nike e o jogador Michael Jordan.',
+          'The Jordan sneaker is the result of an old and strong <br/> partnership between Nike and the player Michael Jordan.',
         ],
         typeSpeed: 50,
       });
@@ -34,19 +34,19 @@ class Principal extends React.Component {
       return (
         <main className="content">
           <header>
-            <div className="black-block"> Ganhe R$ 10,00 de desconto no frete</div>
+            <div className="black-block"> Get $10.00 off shipping</div>
             <h2 className="white-block"> Jordan Shoes</h2>
             <div className="content-wallpaper">
               <div className="area">
-                <h2 > A melhor loja de Jordan</h2>
+                <h2 > Jordan's best store</h2>
                 <p id="descricao-background"></p>      
               </div>
             </div>
 
           </header>
           <section>
-            <h2>Destaques</h2>
-            <span>Frete grátis e chinelo de brinde é aqui, aproveite por tempo limitado. </span>
+            <h2>Our Products</h2>
+            <span>Free shipping and toast slipper is here, enjoy for a limited time.</span>
             <div>
               <ul className="container">
                 <li><img src='img/shoe-1.png' alt="Sapato 1" /></li>
@@ -61,7 +61,7 @@ class Principal extends React.Component {
             </div>
           </section>
           <footer className="black-block">
-            <span>Todos os direitos reservados.</span>
+            <span>All rights reserved.</span>
           </footer>
         </main>
       );
