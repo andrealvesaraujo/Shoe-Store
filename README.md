@@ -6,6 +6,7 @@
 [![Issues][issues-shield]][issues-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
+
 <br />
 <div align="center">
   <a href="https://github.com/andrealvesaraujo/Shoe-Store">
@@ -164,5 +165,4 @@ Use this space to list resources you find helpful and would like to give credit 
 [issues-url]: https://github.com/andrealvesaraujo/Shoe-Store/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/andre-alves-araujo/
-[product-screenshot]: https://user-images.githubusercontent.com/18336972/132255579-afa279b3-b3f3-4a38-bc9d-5d7e183df847.png
-
+[product-screenshot]: https://user-images.githubusercontent.com/18336972/151035439-2d8c8d84-eeb4-4012-9fb8-b0ff7c5be10f.png
